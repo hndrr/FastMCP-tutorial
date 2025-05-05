@@ -5,7 +5,7 @@ from fastmcp.client.transports import PythonStdioTransport
 
 async def main():
     # サーバースクリプトのパス (appディレクトリ内からの相対パス)
-    server_script = "./letter_counter.py"
+    server_script = "./app/letter_counter.py"
 
     # PythonStdioTransportを使用してサーバを起動
     transport = PythonStdioTransport(script_path=server_script)

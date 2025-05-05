@@ -22,7 +22,7 @@ openai_api_key = os.getenv("OPENAI_API_KEY")
 client = OpenAI(api_key=openai_api_key)
 
 # サーバースクリプトのパス (appディレクトリ内からの相対パス)
-SERVER_SCRIPT = "./letter_counter.py"
+SERVER_SCRIPT = "./app/letter_counter.py"
 
 
 # MCPサーバからツールスキーマを取得
