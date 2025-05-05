@@ -1,7 +1,7 @@
 # my_server.py
 from fastmcp import FastMCP
 
-mcp = FastMCP(
+mcp = FastMCP(  # type: ignore
     name="ConfiguredServer",
     port=8080,  # ServerSettingsに直接マップ
     on_duplicate_tools="error",  # 重複処理を設定
